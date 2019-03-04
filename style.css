@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+img {
+    margin-top: 40px;
+     width: 600px;
+ }
+
+ h1 {
+     font-family: 'ZCOOL QingKe HuangYou', cursive;
  }
