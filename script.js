@@ -29,18 +29,20 @@ function randomCat() {
 const phrases = [
     "JavaScript was a mistake",
     "The H in PHP stands for hated",
-    "Why do light themed IDEs exist?",
+    "Dogs use light-themed IDEs",
     "I should write a JavaScript framework",
     "It works on my machine",
     "Web browsers are just HTML compilers",
     "I dont need to comment my code",
+    "Only dogs use VIM",
+    "Dogs prefer spaces over tabs",
     
 ]
 
 phraseDiv = document.querySelector(".phrase");
 
 function randomPhrase() {
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 8; i++) {
         random = phrases[Math.floor(Math.random() * phrases.length)];
    }
    phraseDiv.innerHTML = "<h1>" + random + "</h1>";
